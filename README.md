@@ -2,7 +2,7 @@
 
 #IDEA 远程在linux执行代码
 #在你的任意脚本如下试用：
-
+```
 import time
 from remote.run_remote import RemoteRunner
 import sys
@@ -17,4 +17,4 @@ runner.run()
 for i in range(5):
     print("%s->当前运行的文件=%s python解释器路径=%s" % (i, __file__, sys.executable))
     time.sleep(0.1)
-
+```
